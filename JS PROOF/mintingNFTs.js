@@ -1,4 +1,4 @@
-// Variable to hold minted Monkey NFTs ;)
+// Variable (array) to hold minted Monkey NFTs ;)
 let nftCollection = [];
 
 // This function takes properties of NFTs and mints respectively
@@ -42,6 +42,7 @@ mintNFT("0x03","Cyan", false, 11, "Berry");
 mintNFT("0x04","Brown", false, 9, "Orange");
 mintNFT("0x05","White", true, 34, "Banana");
 mintNFT("0x06","Red", true, 22, "Lichi");
+mintNFT("0x07","Pink", true, 9, "Starberry");
 
 // Getting Minted NFTs 
 listNFTS();
